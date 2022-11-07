@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -p 8008 -o",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "gatsby": "^4.24.6",
-    "gatsby-plugin-google-analytics": "^4.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-postcss": "^5.24.0",
     "postcss": "^8.4.18",
