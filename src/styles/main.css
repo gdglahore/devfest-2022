@@ -1,0 +1,8 @@
+.bgnavimg {
+  background: no-repeat
+      url(https://cdn.statically.io/gh/devfestkolkata2022/assets/main/images/devFest2022.png),
+    #212025;
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
