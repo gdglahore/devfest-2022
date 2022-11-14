@@ -19,8 +19,9 @@ const Home = () => {
               alt="Devfest Logo Horizontal"
             />
             <p className="text-2xl text-blue-grey font-mono font-semibold m-4">
-              Saturday, 10th December <span className="font-black my-8">•</span> Aiwan-e-Iqbal Complex، 
-              Egerton Rd, Garhi Shahu Lahore <span className="font-black my-8">•</span> 9:00 AM PKT
+              Saturday, 10th December <span className="font-black my-8">•</span>{" "}
+              Aiwan-e-Iqbal Complex، Egerton Rd, Garhi Shahu Lahore{" "}
+              <span className="font-black my-8">•</span> 9:00 AM PKT
             </p>
             <div className="flex items-center">
               <a className="" href="#registerationURLHere">
@@ -66,17 +67,17 @@ const Home = () => {
               alt="Devfest Logo Horizontal"
             />
             <p className="text-xs text-blue-grey font-opensans m-4">
-              13th November <span className="font-bold my-8">•</span> Taal Kutir
-              by Taj <span className="font-bold my-8">•</span>
-              9:00 AM IST
+              Saturday, 10th December <span className="font-bold my-8">•</span>{" "}
+              Aiwan-e-Iqbal Complex، Egerton Rd, Garhi Shahu Lahore{" "}
+              <span className="font-black my-8">•</span> 9:00 AM PKT
             </p>
-            <a className="" href="https://devfest.gdgkolkata.in/register">
+            <a className="" href="#register">
               <button className="bg-green-primary rounded-lg text-sm text-white w-52 h-12 m-2 py-1 px-10 lg-1:w-32 lg-1:text-base md:w-64 md:h-16 md:text-lg">
                 Get Tickets
               </button>
             </a>
             <br />
-            <a className="" href="https://devfest.gdgkolkata.in/cfs">
+            <a className="" href="#beASpeaker">
               <button className="bg-transparent w-52 h-12 m-2 text-sm text-gold-secondary font-semibold rounded-lg  py-2 px-4 border-4 border-primary md:h:16  md:w-64">
                 Apply to be a Speaker
               </button>

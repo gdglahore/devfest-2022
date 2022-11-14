@@ -8,6 +8,8 @@ import ImgYellowRoundedBoarder from "./yellowRoundedBoarder.png";
 import ImgLinkedIn from "./linkedin.png";
 import ImgGithub from "./github.png";
 import ImgTwitter from "./twitter.png";
+import ImgMarker from "./marker--v1.png";
+import ImgDevFest2022Mob from "./devFest2022mob.png";
 
 import IconGdgLogo from "./gdg-logo.svg";
 import IconDevfestH from "./devfestH.svg";
@@ -41,6 +43,8 @@ export {
   ImgLinkedIn,
   ImgGithub,
   ImgTwitter,
+  ImgMarker,
+  ImgDevFest2022Mob,
   IconGdgLogo,
   IconDevfestH,
   IconFacebook,

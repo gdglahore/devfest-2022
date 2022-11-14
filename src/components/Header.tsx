@@ -1,5 +1,5 @@
 import React from "react";
-import { ImgArrow } from "../images/index";
+import { ImgArrow, ImgDevFest2022Mob } from "../images/index";
 import "../styles/main.css";
 
 const Header = () => {
@@ -39,7 +39,7 @@ const Header = () => {
           <li className="md:hidden max-w-[60vw]">
             <img
               className="h-[100%] ml-4 navbarImg"
-              src="./DevFest Kolkata 2022_files/devFest2022mob.png"
+              src={ImgDevFest2022Mob}
               alt=""
             />
           </li>
