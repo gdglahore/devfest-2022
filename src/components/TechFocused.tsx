@@ -1,4 +1,5 @@
 import React from "react";
+import { IconAndroid, IconChrome, IconFirebase, IconFlutter, IconGoogleAssistant, IconGoogleCloud, IconGoogleMaps, IconMachineLearning } from "../images";
 import "../styles/main.css";
 
 const TechFocused = () => {
@@ -22,7 +23,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://www.android.com/intl/en_in/">
               <img
-                src="./DevFest Kolkata 2022_files/android-logo.svg"
+                src={IconAndroid}
                 alt="android logo"
                 // href="https://www.android.com/intl/en_in/"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
@@ -32,7 +33,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://www.google.com/chrome/">
               <img
-                src="./DevFest Kolkata 2022_files/chrome-logo.svg"
+                src={IconChrome}
                 alt="chrome logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -41,7 +42,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://firebase.google.com/">
               <img
-                src="./DevFest Kolkata 2022_files/firebase-logo.svg"
+                src={IconFirebase}
                 alt="firebase logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -50,7 +51,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://flutter.dev/">
               <img
-                src="./DevFest Kolkata 2022_files/flutter-logo.svg"
+                src={IconFlutter}
                 alt="flutter logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -59,7 +60,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://assistant.google.com/">
               <img
-                src="./DevFest Kolkata 2022_files/googleassistant-logo.svg"
+                src={IconGoogleAssistant}
                 alt="google assistant logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -68,7 +69,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://cloud.google.com/">
               <img
-                src="./DevFest Kolkata 2022_files/googlecloud-logo.svg"
+                src={IconGoogleCloud}
                 alt="Google cloud logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -77,7 +78,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://maps.google.com/">
               <img
-                src="./DevFest Kolkata 2022_files/googlemaps-logo.svg"
+                src={IconGoogleMaps}
                 alt="google maps logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full bg-white p-2"
               />
@@ -86,7 +87,7 @@ const TechFocused = () => {
           <div className="mt-5">
             <a href="https://www.tensorflow.org/">
               <img
-                src="./DevFest Kolkata 2022_files/machinelearning-logo.svg"
+                src={IconMachineLearning}
                 alt="tensorflow logo"
                 className="tech-img w-16 lg:w-20 mx-auto rounded-full border-4 bg-white p-2"
               />

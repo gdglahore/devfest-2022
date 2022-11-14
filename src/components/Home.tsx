@@ -19,8 +19,8 @@ const Home = () => {
               alt="Devfest Logo Horizontal"
             />
             <p className="text-2xl text-blue-grey font-mono font-semibold m-4">
-              13th December <span className="font-black my-8">•</span> LUMS
-              Lahore <span className="font-black my-8">•</span> 9:00 AM PKT
+              Saturday, 10th December <span className="font-black my-8">•</span> Aiwan-e-Iqbal Complex، 
+              Egerton Rd, Garhi Shahu Lahore <span className="font-black my-8">•</span> 9:00 AM PKT
             </p>
             <div className="flex items-center">
               <a className="" href="#registerationURLHere">
